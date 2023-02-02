@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title><%= title %></title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.classless.min.css" />
 </head>
 <body>
-  <h3><%= todo.todo %></h3>
-  <h3>Complete: <%= todo.done ? 'Yes' : 'No' %></h3>
+  <main>
+    <h3><%= todo.todo %></h3>
+    <h3>Complete: <%= todo.done ? 'Yes' : 'No' %></h3>
+  </main>
 </body>
 </html>

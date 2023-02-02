@@ -1,18 +1,21 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title><%= title %></title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.classless.min.css" />
 </head>
 <body>
-  <h1>Todos</h1>
-  <ul>
-    <% todos.forEach(function(t) { %>
-      <li>
-        <a href="/todos/<%= t.id %>"><%= t.todo %></a>
-          - 
-        <%= t.done ? 'done' : 'not done' %>
-      </li>
-    <% }); %>
-  </ul>
+  <main>
+    <h1>Todos</h1>
+    <ul>
+      <% todos.forEach(function(t) { %>
+        <li>
+          <a href="/todos/<%= t.id %>"><%= t.todo %></a>
+            - 
+          <%= t.done ? 'done' : 'not done' %>
+        </li>
+      <% }); %>
+    </ul>
+  </main>
 </body>
 </html>
