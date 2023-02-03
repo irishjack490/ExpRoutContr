@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var todosRouter = require('./routes/todos');
+var eateriesRouter = require('./routes/eateries');
 
 var app = express();
 
@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/todos', todosRouter);
+app.use('/eateries', eateriesRouter);
 
 app.use(function(req, res, next) {
   next(createError(404));

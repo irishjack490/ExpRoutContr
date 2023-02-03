@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= title %></title>
+  <title>Where can I get lunch around here?</title>
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.classless.min.css" />
 </head>
 <body>
   <main>
-    <h1>Todos</h1>
+    <a href="/">&lt; Back</a>
+
+    <h1>Where can I get lunch around here?</h1>
+
     <ul>
-      <% todos.forEach(function(t) { %>
+      <% eateries.forEach(function(e) { %>
         <li>
-          <a href="/todos/<%= t.id %>"><%= t.todo %></a>
-            - 
-          <%= t.done ? 'done' : 'not done' %>
+          <a href="/eateries/<%= e.id %>"><%= e.name %></a>
         </li>
       <% }); %>
     </ul>
