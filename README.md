@@ -6,25 +6,25 @@ It's only your first week at your new programming job, and you're just starting 
 
 You ask your ever-helpful office manager: "Are there any good places to grab lunch around here?"
 
-> "Of course! In fact I'm starting to keep track of a list of Employee Frequently Asked Questions (FAQs), and that happens to be the first question I'm working on. Actually I'm learning how to program and writing all this stuff up in a little Express app right here!"
+"Of course! In fact I'm starting to keep track of a list of Employee Frequently Asked Questions (FAQs), and that happens to be the first question I'm working on. Actually I'm learning how to program and writing all this stuff up in a little Express app right here!"
 
 <img src="public/images/index.png" width="400" />
 
-> "I only just got started on the app though, so I've only done the 'Where can I get lunch around here?' question and put three places on it so far."
+"I only just got started on the app though, so I've only done the 'Where can I get lunch around here?' question and put three places on it so far."
 
 <img src="public/images/eateries_index.png" width="400" />
 
-> "I like Sushi Queen myself, it's just around the corner. Look, it's even got a Google Map!"
+"I like Burger Queen myself, it's just around the corner. Look, it's even got a Google Map!"
 
 <img src="public/images/eateries_show.png" width="400" />
 
 Impressed that your office manager is learning how to program, you say "Thanks so much!" and prepare to leave for lunch, but your office manager keeps talking:
 
-> "Hey you're the new programming whiz on our team right? You're just the person I need.
->
-> See, right now I have each eatery on a separate page. But it's getting to be annoying manually writing a new page for each eatery every time I want to add one, and manually updating the index page.
->
-> But I heard that it's possible to DRY my code by using Models, Controllers, and Views. Actually, do you think you can help me with that? We've all got to pitch in with these extracurricular projects to make everyone's life better around the office, after all!"
+"Hey you're the new programming whiz on our team right? You're just the person I need.
+
+See, right now I have each eatery on a separate page. But it's getting to be annoying manually writing a new page for each eatery every time I want to add one, and manually updating the index page.
+
+But I heard that it's possible to DRY my code by using Models, Controllers, and Views. Actually, do you think you can help me with that? We've all got to pitch in with these extracurricular projects to make everyone's life better around the office, after all!"
 
 Sighing, you promise you'll help... right after lunch.
 
