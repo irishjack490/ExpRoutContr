@@ -90,7 +90,7 @@ Sighing, you promise you'll help... right after lunch.
 ];
 ```
 
-- To check that you did everything right, run: `npm test -- test/models`
+- To check that you did everything right, run: `npm test test/models`
 
 #### Step 3:
 
@@ -100,7 +100,7 @@ Sighing, you promise you'll help... right after lunch.
 - Using what you've learned in class, write the `index()` and `show()` functions
   - Be sure to export them!
 - **Hint**: You'll need to use the **Model** that you wrote earlier
-- To check that you did everything right, run: `npm test -- test/controllers`
+- To check that you did everything right, run: `npm test test/controllers`
 
 #### Step 4:
 
@@ -113,7 +113,7 @@ Sighing, you promise you'll help... right after lunch.
 - Your job is to use what you've learned to condense all of that into **two** appropriately named files
   - What should they be called again!? Check your notes!
 - **Hint**: You'll have to remove all the hardcoded data from these files and use alligator tags (`<%`, `<%=` and `%>`) to insert those values into the template instead
-- To check that you did everything right, run: `npm test -- test/views`
+- To check that you did everything right, run: `npm test test/views`
 
 #### Step 5:
 
@@ -123,7 +123,7 @@ Sighing, you promise you'll help... right after lunch.
 - Using what you've learned in class, reduce this to **two** routes only
   - Remember route parameters using `:id`? No? Better check your course notes!
 - **Hint**: You'll have to use the **Controller** and the filenames of the **Views** that you wrote earlier
-- To check that you did everything right, run: `npm test -- test/routes`
+- To check that you did everything right, run: `npm test test/routes`
 
 ## The End
 
