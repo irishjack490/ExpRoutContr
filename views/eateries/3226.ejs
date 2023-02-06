@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= eatery.name %></title>
+  <title>Burger Queen</title>
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.classless.min.css" />
 </head>
 <body>
@@ -9,14 +9,14 @@
     <a href="/eateries">&lt; Back</a>
 
     <hgroup>
-      <h1><%= eatery.name %></h1>
-      <h2><strong><%= eatery.genre %></strong> - <small><%= eatery.price %></small></h2>
+      <h1>Burger Queen</h1>
+      <h2><strong>American</strong> - <small>$</small></h2>
     </hgroup>
 
-    <h6><%= eatery.address %></h6>
+    <h6>5 Pine St, Toronto</h6>
 
     <iframe
-      src="https://maps.google.com/maps?output=embed&amp;q=<%= eatery.address %>"
+      src="https://maps.google.com/maps?output=embed&amp;q=5 Pine St, Toronto"
       width="500"
       height="400"
     ></iframe>
