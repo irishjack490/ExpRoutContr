@@ -11,7 +11,7 @@ describe('Eateries Index View', () => {
       { eateries: expectedEateries }
     );
 
-    const links = doc.querySelectorAll('li > a');
+    const links = doc.querySelectorAll('main > ul > li > a');
 
     links.forEach( (link, i) =>
       expect(link.innerHTML).toBe(expectedEateries[i].name)
