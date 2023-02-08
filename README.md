@@ -6,7 +6,7 @@ It's only your first week at your new programming job, and you're just starting 
 
 You ask your ever-helpful office manager: "Are there any good places to grab lunch around here?"
 
-_"Of course! In fact I'm starting to keep track of a list of Employee Frequently Asked Questions (FAQs), and that happens to be the first question I'm working on. Actually I'm learning how to program and writing all this stuff up in a little Express app right here!"_
+_"Of course! In fact, the Employee Wellbeing Committee (which I lead) is starting an intranet site to keep track of a list of Employee Frequently Asked Questions (FAQs) -- your question happens to be the first question we're working on. Actually I'm learning how to program and writing all this stuff up in a little Express app right here!"_
 
 <img src="public/images/index.png" width="400" />
 
@@ -20,13 +20,15 @@ _"I like Burger Queen myself, it's just around the corner. Look, it's even got a
 
 Impressed that your office manager is learning how to program, you say "Thanks so much!" and prepare to leave for lunch, but your office manager keeps talking:
 
-_"Hey you're the new programming whiz on our team right? You're just the person I need."_
+_"That's the mission of the Employee Wellbeing Committee, by the way -- in our spare time we all pitch in to make everyone's life better around the office... That reminds me, you're the new programming whiz, right? You're just the person I need."_
 
 _"See, right now I have each eatery on a separate page. But it's getting to be annoying manually writing a new page for each eatery every time I want to add one, and manually updating the index page."_
 
-_"But I heard that it's possible to DRY my code by using Models, Controllers, and Views. Actually, do you think you can help me with that? We've all got to pitch in with these extracurricular projects to make everyone's life better around the office, after all!"_
+_"But I heard that it's possible to DRY my code by using Models, Controllers, and Views. Actually, do you think you can help me with that?"_
 
 Sighing, you promise you'll help... right after lunch.
+
+_"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers as you run out the door to Burger Queen, and you wonder what you've gotten yourself into.
 
 ## Requirements
 
