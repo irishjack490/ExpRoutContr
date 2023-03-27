@@ -1,6 +1,6 @@
 # Express Routers & Controllers - Work Based Problem
 
-## The Scenario
+![The Scenario](/public/images/banner-scenario.png)
 
 It's only your first week at your new programming job, and you're just starting to get your bearings around the office. Pretty soon it's lunch time, and your stomach starts to rumble.
 
@@ -30,14 +30,23 @@ Sighing, you promise you'll help... right after lunch.
 
 _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers as you run out the door to Burger Queen, and you wonder what you've gotten yourself into.
 
-## Requirements
+---
+
+![Requirements](/public/images/banner-requirements.png)
 
 * Writing models
 * Writing controllers
 * Wrtiing dynamic routes
 * Writing `.ejs` view templates
 
-## Steps to complete tickets
+---
+
+![Tickets](/public/images/banner-tickets.png)
+[Trello Board]()
+
+---
+
+![Coding Practice](/public/images/banner-coding.png)
 
 #### Step 1:
 
