@@ -53,7 +53,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 #### Step 1:
 
-- Fork and clone this repository
+- Fork and clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/M2L4-express-routers-controllers-wbp) repository
 - Navigate (`cd`) into the repository folder in your console
   - Run the command `npm install` -- this will install the modules necessary for the automated tests to run
 - Open up the repository folder in your code editor
