@@ -45,7 +45,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 <!-- [Trello Board](https://trello.com/b/zhaJvdZB/express-routers-controllers) -->
 
-![trello board](/public/images/M2L4-express-routers-controllers-trello-board.png)
+![kanban board](./public/images/express-routers-controllers-kanban-board.png)
 
 ---
 
