@@ -1,6 +1,6 @@
 # Express Routers & Controllers WBP
 
-![The Scenario](/public/images/banner-scenario.png)
+![The Scenario](./public/images/banner-scenario.png)
 
 It's only your first week at your new programming job, and you're just starting to get your bearings around the office. Pretty soon it's lunch time, and your stomach starts to rumble.
 
@@ -32,16 +32,16 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 ---
 
-![Requirements](/public/images/banner-requirements.png)
+![Requirements](./public/images/banner-requirements.png)
 
-* Writing models
-* Writing controllers
-* Wrtiing dynamic routes
-* Writing `.ejs` view templates
+* Write models
+* Write controllers
+* Write dynamic routes
+* Write `.ejs` view templates
 
 ---
 
-![Tickets](/public/images/banner-tickets.png)
+![Tickets](./public/images/banner-tickets.png)
 
 <!-- [Trello Board](https://trello.com/b/zhaJvdZB/express-routers-controllers) -->
 
@@ -49,7 +49,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 ---
 
-![Coding Practice](/public/images/banner-coding.png)
+![Coding Practice](./public/images/banner-coding.png)
 
 #### Step 1:
 
