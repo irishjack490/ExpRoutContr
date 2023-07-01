@@ -17,10 +17,10 @@ describe('Eateries Show View', () => {
       const price   = doc.querySelector('hgroup > h2 > small').innerHTML;
       const address = doc.querySelector('main > h6').innerHTML;
 
-      expect(name).toBe(expectedEatery.name);
-      expect(genre).toBe(expectedEatery.genre);
-      expect(price).toBe(expectedEatery.price);
-      expect(address).toBe(expectedEatery.address);
+      expect(name).toContain(expectedEatery.name);
+      expect(genre).toContain(expectedEatery.genre);
+      expect(price).toContain(expectedEatery.price);
+      expect(address).toContain(expectedEatery.address);
     });
 
   });

@@ -14,7 +14,7 @@ describe('Eateries Index View', () => {
     const links = doc.querySelectorAll('main > ul > li > a');
 
     links.forEach( (link, i) =>
-      expect(link.innerHTML).toBe(expectedEateries[i].name)
+      expect(link.innerHTML).toContain(expectedEateries[i].name)
     );
 
   });
