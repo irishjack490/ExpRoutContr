@@ -34,10 +34,10 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 ![Requirements](./public/images/banner-requirements.png)
 
-* Write models
-* Write controllers
-* Write dynamic routes
-* Write `.ejs` view templates
+- Write models
+- Write controllers
+- Write dynamic routes
+- Write `.ejs` view templates
 
 ---
 
