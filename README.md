@@ -51,7 +51,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 ![Coding Practice](./public/images/banner-coding.png)
 
-#### Step 1:
+### Step 1:
 
 - Fork and clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/M2L4-express-routers-controllers-wbp) repository
 - Navigate (`cd`) into the repository folder in your console
@@ -69,7 +69,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
   - `views/eateries/9567.ejs`
 - The files are full of repetitious code. Use what you've learned about Models, Views, and Controllers to simplify the app!
 
-#### Step 2:
+### Step 2:
 
 - The first step is to write the **Model**
 - Create an appropriately named file in the `models` directory
@@ -106,7 +106,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 
 - To check that you did everything right, run: `npm test test/models`
 
-#### Step 3:
+### Step 3:
 
 - The next step is to write the **Controller**
 - Create an appropriately named file in the `controllers` directory
@@ -116,7 +116,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 - **Hint**: You'll need to use the **Model** that you wrote earlier
 - To check that you did everything right, run: `npm test test/controllers`
 
-#### Step 4:
+### Step 4:
 
 - Next, you'll have to update the **Views**
 - open up the four eatery view files:
@@ -129,7 +129,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 - **Hint**: You'll have to remove all the hardcoded data from these files and use alligator tags (`<%`, `<%=` and `%>`) to insert those values into the template instead
 - To check that you did everything right, run: `npm test test/views`
 
-#### Step 5:
+### Step 5:
 
 - The final step is to update the **Routes**
 - Open up the `routes/eateries.js` file
@@ -139,7 +139,7 @@ _"Welcome to the Employee Wellbeing Committee!!!"_, your office manager hollers 
 - **Hint**: You'll have to use the **Controller** and the filenames of the **Views** that you wrote earlier
 - To check that you did everything right, run: `npm test test/routes`
 
-## The End
+### Step 6:
 
 - Be sure the user interface of your app is working by checking `localhost:3000` and clicking through all the links
 - Run all the tests all together with `npm test`
