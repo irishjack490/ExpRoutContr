@@ -13,14 +13,14 @@
     </nav>
 
     <hgroup>
-      <h1>Sushi King</h1>
-      <h2><strong>Japanese</strong> - <small>$$$</small></h2>
+      <h1><%= eatery.name %></h1>
+      <h2><strong><%= eatery.genre %></strong> - <small><%= eatery.price %></small></h2>
     </hgroup>
 
-    <h6>11 Maple Blvd, Toronto</h6>
+    <h6><%= eatery.address %></h6>
 
     <iframe
-      src="https://maps.google.com/maps?output=embed&amp;q=11 Maple Blvd, Toronto"
+      src="https://maps.google.com/maps?output=embed&amp;q=<%= eatery.address %>"
       width="500"
       height="400"
     ></iframe>

@@ -21,3 +21,16 @@
       price: '$$$'
     }
   ];
+  //write get all and get one functions and export them
+  function getAll() {
+    return eateries;
+  }
+  
+  function getOne(id) {
+    id = parseInt(id);
+    return eateries.find(e => e.id === id);
+  }
+  module.exports ={
+    getAll,
+    getOne
+  }
