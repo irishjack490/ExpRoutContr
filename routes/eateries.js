@@ -1,9 +1,15 @@
 var express = require('express');
 var router = express.Router();
 
-var eateriesCtrl = require('../controllers/eateries');
-router.get('/', eateriesCtrl.index);
-router.get('/:id', eateriesCtrl.show);
+var eateries = require('../controllers/eateries');
+router.get('/', eateries.index);
+router.get('/:id', eateries.show);
+
+module.exports = router;
+
+
+
+
 
 //commented the below out
 // router.get('/', function(req, res, next) {
