@@ -5,6 +5,7 @@ var eateriesCtrl = require('../controllers/eateries');
 router.get('/', eateriesCtrl.index);
 router.get('/:id', eateriesCtrl.show);
 
+//commented the below out
 // router.get('/', function(req, res, next) {
 //   res.render('eateries/list');
 // });
